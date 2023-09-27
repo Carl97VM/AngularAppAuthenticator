@@ -2,3 +2,10 @@
 <hr>
 <h3>User</h3>
 <pre>{{ user() | json }}</pre>
+<br>
+<!-- <span routerLink="/auth/login">Ir a Login</span> -->
+<button
+  (click)="onLogout()"
+  >
+  Cerrar Sesion
+</button>
